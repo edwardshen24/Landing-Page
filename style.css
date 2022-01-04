@@ -1,5 +1,6 @@
 body{
     margin:0;
+    overflow: hidden;
 }
 
 .header{
@@ -7,28 +8,40 @@ body{
     justify-content: space-around;
     align-items: center;
     background:  #1F2937;
-    
+    gap: 20px;
+    padding: 10px;
 }
+
+
+.right-links{
+    display:flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
 .header a{
     color: white;
     text-decoration: none;
 }
 
-.left-links, .right-links{
-    list-style-type: none;
-    display:flex;
-    gap: 20px;
-    padding: 10px;
-}
 
 .first-content{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background:  #1F2937;
+    height: 400px;
+    
 }
 
 .main{
     display: flex;
     flex-direction: column;
+    color:white; 
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 300px;
+    
 }
 
 button{
@@ -37,8 +50,13 @@ button{
     padding: 12px;
     text-align: center;
     border-radius: 8px;
+    background-color: #3882F6;
+    color:white;
+}
+button:hover{
+    background-color:#1a65dd ;
 }
 
 img{
-    width: 500px;
+    width: 400px;
 }
