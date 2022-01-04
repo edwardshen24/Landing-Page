@@ -5,7 +5,7 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-.header{
+.header, .footer{
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -116,4 +116,27 @@ img{
 .quote{
     display:flex;
     justify-content: flex-end;
+}
+
+.banner{
+    padding:50px 80px;
+    background-color:#3882F6;
+    margin: 100px 200px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+
+.banner button{
+    border: 1px solid white;
+}
+
+.third-header{
+    font-size: 24px;
+}
+
+.footer{
+    padding: 30px;
+    color: white;
 }
