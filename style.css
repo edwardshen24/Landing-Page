@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
     margin:0;
-    overflow: hidden;
+    font-family: Roboto, sans-serif;
 }
 
 .header{
@@ -52,6 +54,7 @@ button{
     border-radius: 8px;
     background-color: #3882F6;
     color:white;
+    font-size: large;
 }
 button:hover{
     background-color:#1a65dd ;
@@ -59,4 +62,58 @@ button:hover{
 
 img{
     width: 400px;
+}
+
+.title{
+   font-size: 48px;
+   font-weight: extra; 
+}
+
+.second-header{
+    display:flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 36px;
+}
+
+.set{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-width: 15%;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.second-content{
+    height: 500px;
+}
+
+.third-content{
+    background: #E5E7Eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph{
+    width:40%;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.quote{
+    display:flex;
+    justify-content: flex-end;
 }
