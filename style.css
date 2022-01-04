@@ -62,11 +62,18 @@ button:hover{
 
 img{
     width: 400px;
+    border-radius: 25%;
 }
 
 .title{
    font-size: 48px;
    font-weight: extra; 
+}
+
+.second-content{
+    height: 500px;
+    display:flex;
+    flex-direction: column;
 }
 
 .second-header{
@@ -80,23 +87,23 @@ img{
     display:flex;
     align-items:center;
     justify-content: center;
+    gap: 30px;
+    flex-flow: row wrap;
     text-align: center;
-    gap: 10px;
-    padding: 15px;
-    flex-wrap: wrap;
 }
 
 .card{
-    max-width: 15%;
+    width: 15%;
+    gap: 20px;
+    
 }
 
 .card img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
-.second-content{
-    height: 500px;
-}
+
+
 
 .third-content{
     background: #E5E7Eb;
