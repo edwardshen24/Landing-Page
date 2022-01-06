@@ -32,8 +32,9 @@ body{
     align-items: center;
     justify-content: space-evenly;
     background:  #1F2937;
-    height: 400px;
-    
+    flex-wrap: wrap;
+    padding: 100px 50px;
+    gap: 30px;
 }
 
 .main{
@@ -56,6 +57,7 @@ button{
     color:white;
     font-size: large;
 }
+
 button:hover{
     background-color:#1a65dd ;
 }
@@ -71,7 +73,7 @@ img{
 }
 
 .second-content{
-    height: 500px;
+    
     display:flex;
     flex-direction: column;
 }
@@ -87,15 +89,16 @@ img{
     display:flex;
     align-items:center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    padding: 20px;
     flex-flow: row wrap;
     text-align: center;
 }
 
 .card{
-    width: 15%;
-    gap: 20px;
-    
+    gap: 10px;
+    padding: 30px;
+    width: 150px;
 }
 
 .card img{
@@ -132,6 +135,7 @@ img{
     border-radius: 25px;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     color:white;
 }
 
